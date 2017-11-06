@@ -25,11 +25,11 @@
     "url": "git+https://github.com/kirkstrobeck/filepath-to-title.git"
   },
   "scripts": {
-    "build": "webpack",
     "build:watch": "webpack --watch",
-    "test": "jest",
-    "test:report-coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "test:publish": "./publish"
+    "build": "webpack",
+    "ci": "yarn test && yarn coveralls && npm publish",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "jest"
   },
   "version": "0.0.3",
   "dependencies": {
