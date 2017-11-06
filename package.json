@@ -6,7 +6,7 @@
   "bugs": {
     "url": "https://github.com/kirkstrobeck/filepath-to-title/issues"
   },
-  "description": "Change a filepath into a title`",
+  "description": "Take any file path and turn it into a fancy title",
   "files": [
     "dist"
   ],
