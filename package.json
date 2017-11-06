@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "Contributors",
+    "url": "https://github.com/kirkstrobeck/filepath-to-title/graphs/contributors"
+  },
+  "bugs": {
+    "url": "https://github.com/kirkstrobeck/filepath-to-title/issues"
+  },
+  "description": "Change a filepath into a title`",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/kirkstrobeck/filepath-to-title",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "name": "filepath-to-title",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirkstrobeck/filepath-to-title.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1",
+    "title-case": "^2.1.1",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "webpack": "^3.8.1"
+  }
+}
