@@ -7,6 +7,9 @@
     "url": "https://github.com/kirkstrobeck/filepath-to-title/issues"
   },
   "description": "Take any file path and turn it into a fancy title",
+  "engines": {
+    "node": "8.2.1"
+  },
   "files": [
     "dist"
   ],
