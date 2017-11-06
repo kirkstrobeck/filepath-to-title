@@ -13,6 +13,9 @@
   "files": [
     "dist"
   ],
+  "jest": {
+    "collectCoverage": true
+  },
   "homepage": "https://github.com/kirkstrobeck/filepath-to-title",
   "license": "Apache-2.0",
   "main": "dist/index.js",
@@ -24,13 +27,15 @@
   "scripts": {
     "build": "webpack",
     "build:watch": "webpack --watch",
-    "test": "jest"
+    "test": "jest",
+    "test:report-coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "version": "0.0.1",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
+    "coveralls": "^3.0.0",
     "jest": "^21.2.1",
     "title-case": "^2.1.1",
     "uglifyjs-webpack-plugin": "^1.0.1",

@@ -8,3 +8,4 @@ jobs:
       - checkout
       - run: yarn
       - run: yarn test
+      - run: yarn test:report-coverage
