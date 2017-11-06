@@ -28,9 +28,10 @@
     "build": "webpack",
     "build:watch": "webpack --watch",
     "test": "jest",
-    "test:report-coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "test:report-coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test:publish": "./publish"
   },
-  "version": "0.0.1",
+  "version": "0.0.3",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",

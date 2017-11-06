@@ -9,3 +9,4 @@ jobs:
       - run: yarn
       - run: yarn test
       - run: yarn test:report-coverage
+      - run: yarn test:publish
