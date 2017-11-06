@@ -1,9 +1,10 @@
 # Filepath → Title
 
 [![npm version](https://badge.fury.io/js/filepath-to-title.svg)](https://badge.fury.io/js/filepath-to-title)
-[![https://img.shields.io/david/kirkstrobeck/filepath-to-title.svg][https://img.shields.io/david/kirkstrobeck/filepath-to-title.svg]][https://david-dm.org/kirkstrobeck/filepath-to-title]
+[![David][https://img.shields.io/david/kirkstrobeck/filepath-to-title.svg]][https://david-dm.org/kirkstrobeck/filepath-to-title]
 [![CircleCI](https://circleci.com/gh/kirkstrobeck/filepath-to-title.svg?style=svg)](https://circleci.com/gh/kirkstrobeck/filepath-to-title)
-[![https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%kirkstrobeck%2filepath-to-title.svg?type=shield][https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%kirkstrobeck%2filepath-to-title.svg?type=shield]][https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%kirkstrobeck%2filepath-to-title?ref=badge_shield]
+[![Coverage Status](https://coveralls.io/repos/github/kirkstrobeck/filepath-to-title/badge.svg?branch=master)](https://coveralls.io/github/kirkstrobeck/filepath-to-title?branch=master)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkirkstrobeck%2Ffilepath-to-title.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkirkstrobeck%2Ffilepath-to-title?ref=badge_shield)
 
 ### Take any file path and turn it into a fancy title
 
