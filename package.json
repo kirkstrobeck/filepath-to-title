@@ -32,7 +32,7 @@
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "test": "jest"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
