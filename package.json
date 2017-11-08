@@ -28,7 +28,7 @@
     "build:prod": "NODE_ENV=production webpack",
     "build:watch": "webpack --watch",
     "build": "webpack",
-    "ci": "yarn test && yarn coveralls && npm publish",
+    "ci": "yarn test && yarn coveralls && yarn build && npm publish",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "test": "jest"
   },
