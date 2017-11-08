@@ -25,6 +25,7 @@
     "url": "git+https://github.com/kirkstrobeck/filepath-to-title.git"
   },
   "scripts": {
+    "build:prod": "NODE_ENV=production webpack",
     "build:watch": "webpack --watch",
     "build": "webpack",
     "ci": "yarn test && yarn coveralls && npm publish",
