@@ -10,8 +10,8 @@ module.exports = Object.assign(
     module: {
       rules: [
         {
-          test: /\.js$/,
           exclude: /node_modules/,
+          test: /\.js$/,
           use: {
             loader: 'babel-loader',
           },
@@ -33,5 +33,5 @@ module.exports = Object.assign(
         },
       }),
     ],
-  }
+  },
 );
