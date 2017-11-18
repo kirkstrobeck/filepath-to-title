@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run: yarn
-      - run: yarn build:dist
+      - run: yarn build:prod
       - run: yarn test
       - run: yarn coveralls
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
