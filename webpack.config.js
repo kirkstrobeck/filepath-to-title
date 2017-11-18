@@ -22,14 +22,11 @@ module.exports = Object.assign(
       filename: './dist/index.js',
       libraryTarget: 'umd',
     },
-    resolve: {
-      extensions: ['.js', '.jsx'],
-    },
   },
   isProd && {
     devtool: 'cheap-module-source-map',
     plugins: [
-      new webpack.optimize.UglifyJsPlugin(),
+      new UglifyJSPlugin(),
       new webpack.DefinePlugin({
         'process.env': {
           NODE_ENV: JSON.stringify(NODE_ENV),
