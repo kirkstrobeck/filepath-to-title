@@ -28,7 +28,6 @@
     "build:prod": "NODE_ENV=production webpack",
     "build:watch": "webpack --watch",
     "build": "webpack",
-    "ci": "yarn build && yarn test && yarn coveralls && npm publish",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "lint": "eslint --cache --ignore-path .gitignore --ext .js --ext .jsx .",
     "test": "jest"
