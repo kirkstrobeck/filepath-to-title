@@ -7,9 +7,6 @@
     "url": "https://github.com/kirkstrobeck/filepath-to-title/issues"
   },
   "description": "Take any file path and turn it into a fancy title",
-  "engines": {
-    "node": "8.2.1"
-  },
   "files": [
     "dist"
   ],
@@ -33,7 +30,7 @@
     "lint": "eslint --cache --ignore-path .gitignore --ext .js --ext .jsx .",
     "test": "jest"
   },
-  "version": "0.1.11",
+  "version": "0.1.12",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.2",
