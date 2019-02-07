@@ -45,6 +45,6 @@
     "jest": "^21.2.1",
     "title-case": "^2.1.1",
     "uglifyjs-webpack-plugin": "^1.0.1",
-    "webpack": "^3.8.1"
+    "webpack": "^4.29.3"
   }
 }
